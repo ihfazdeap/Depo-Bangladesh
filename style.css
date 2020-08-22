@@ -42,7 +42,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-  background-image: linear-gradient(to bottom right, #09C6F9, #045DE9);
+  background-image: linear-gradient(to bottom right, #04619F, #000000);
 }
 
 nav ul li a{
