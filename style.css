@@ -202,6 +202,10 @@ font-family: Roboto;
   color:  lightseagreen;
 }
 
+#f-l-p p{
+  color: #ffffff;
+}
+
 /* Footer links */
 
 .footer-distributed .footer-links{
