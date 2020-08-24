@@ -8,25 +8,22 @@ body{
 
 /*********Navbar***********/
 
-.logo{
-  background-image: linear-gradient(to bottom right, #434343, #000000);
-  text-align: center;
-  font-family: Audiowide;
-  color: white;
-  padding: 1px;
-}
-
-.logo h1{
-  font-size: 60px;
-}
-
-.logo h1 span{
-  color:  lightseagreen;
-}
-
 nav{
   width: 100%;
-   background-image: linear-gradient(to bottom right, #434343, #000000);
+  background-image: linear-gradient(to bottom right, #434343, #000000);
+}
+
+#desk-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110px;
+}
+
+
+nav .toggle img{
+  width: 100px;
+  margin: 0 215px 0 0;
 }
 
 nav ul{
@@ -192,25 +189,12 @@ font-family: Roboto;
 
 /* The company logo */
 
-.footer-distributed h3{
-  color:  #ffffff;
-  font: normal 36px Audiowide, cursive;
-  margin: 0;
-}
-
-.footer-distributed h3 span{
-  color:  lightseagreen;
-}
-
-#f-l-p p{
-  color: #ffffff;
-}
 
 /* Footer links */
 
 .footer-distributed .footer-links{
   color:  #ffffff;
-  margin: 20px 0 12px;
+  margin: 7px 0 12px;
   padding: 0;
 }
 
@@ -435,19 +419,8 @@ font-family: Roboto;
     text-align: center;
 }
 
-.logo{
-  margin: auto;  
-  font-family: Audiowide;
-  color: white;
-}
-
-.logo h1{
-  font-family: Audiowide;
-  font-size: 60px;
-}
-
-.logo h1 span{
-  color:  lightseagreen;
+#desk-logo{
+  display: none;
 }
 
 .toggle
@@ -519,8 +492,3 @@ font-family: Roboto;
   }
 
 }
-
-
-
-
-
