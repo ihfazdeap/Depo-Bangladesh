@@ -310,6 +310,88 @@ font-family: Roboto;
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
+@media (max-width: 768px) {
+
+nav .bar .logo{
+  float: left;
+  padding: 9.5px 20px 24px 20px;
+}
+
+nav .bar .logo img{
+  width: 85px;
+}
+
+nav .bar .toggle
+  {
+    display: block;
+    padding: 43px 20px 43px 20px;
+  }
+
+  nav ul{
+    width: 100%;
+    display: none;
+  }
+
+  nav ul li
+  {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .active{
+    display: block;
+  }
+
+.below-navbar{
+  width: 100%;
+  height: 360px;
+  background-image: url("img/co2.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.co-pic{
+  font-family: Audiowide;
+  color: white;
+  margin-top: 100px;
+}
+.co-pic h1{
+   font-family: Audiowide;
+   font-size: 53px;
+   text-align: center;
+   margin: auto;
+}
+
+.content-body{
+ 
+  margin: 30px 30px 65px 30px;
+  text-align: justify;
+}
+
+.our-partners-logo img{
+  margin: 25px 46.2px 25px 46.2px;
+}
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+    height: 20%;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
 @media (max-width: 414px) {
 
 nav .bar .logo{
