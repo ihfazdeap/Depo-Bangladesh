@@ -310,7 +310,7 @@ font-family: Roboto;
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media only screen and (min-width: 768px)  {
+@media screen and (max-width: 768px)  {
 
 nav .bar .logo{
   float: left;
@@ -393,7 +393,7 @@ nav .bar .toggle
 }
 
 
-@media only screen and (min-width: 414px)  {
+@media screen and (max-width: 414px)  {
 
 nav .bar .logo{
   float: left;
